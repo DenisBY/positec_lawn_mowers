@@ -1,0 +1,11 @@
+{
+  "domain": "landroid_cloud",
+  "name": "Positec Lawn Mowers",
+  "documentation": "",
+  "issue_tracker": "",
+  "requirements": ["pyworxcloud==1.3.0"],
+  "version": "0.0.1",
+  "codeowners": [ "@DenisBY" ],
+  "iot_class":  "cloud_polling",
+  "config_flow": true
+}
