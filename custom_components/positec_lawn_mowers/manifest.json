@@ -1,11 +1,17 @@
 {
   "domain": "positec_lawn_mowers",
   "name": "Positec Lawn Mowers",
-  "documentation": "",
-  "issue_tracker": "",
-  "requirements": ["pyworxcloud==1.3.0"],
-  "version": "0.0.1",
-  "codeowners": [ "@DenisBY" ],
-  "iot_class":  "cloud_polling",
-  "config_flow": true
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/positec_lawn_mowers",
+  "requirements": [
+    "pyworxcloud==1.3.0"
+  ],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": [
+    "@DenisBY"
+  ],
+  "iot_class": "cloud_polling"
 }
